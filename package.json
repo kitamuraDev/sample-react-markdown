@@ -1,6 +1,6 @@
 {
-  "name": "vite-react-ts-starter",
-  "description": "React Typescript Starter Template with Vite",
+  "name": "sample-react-markdown",
+  "description": "sample to create a Markdown editor with React",
   "private": true,
   "version": "0.0.0",
   "license": "MIT",

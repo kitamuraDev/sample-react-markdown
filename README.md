@@ -1,15 +1,13 @@
 <br />
 
-<h3 align="center">Vite × React × TypeScript Starter Template</h3>
+<h3 align="center">React Markdown Sample</h3>
 
 <br />
 
-# Features
+# What is this
 
-- Minimal configure
-- Build with Vite
-- ESLint（Airbnb style guide）and Prettier Supported
-- Run ESLint on every commit（CI）
+- This is a sample to create a Markdown editor with React
+- Minimal implementation
 
 # Tech Stack
 
