@@ -141,12 +141,6 @@ npx lint-staged
 }
 ```
 
-# Future plans
-
-- [ ] add Directory structure
-- [ ] add Testing Framework（Jest, React-Testing-Library）
-- [ ] add Global Store（Recoil, Jotai etc...）
-
 # Contact
 
 [Twitter: @kitamuraDev](https://twitter.com/kitamuraDev)
