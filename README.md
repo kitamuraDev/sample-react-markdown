@@ -8,7 +8,7 @@
 
 - This is a sample to create a Markdown editor with React
 - Minimal implementation
-- [Link](kitamuradev.github.io/sample-react-markdown)
+- [Link](https://kitamuradev.github.io/sample-react-markdown)
 
 # Tech Stack
 

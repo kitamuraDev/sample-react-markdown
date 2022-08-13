@@ -3,6 +3,7 @@
   "description": "sample to create a Markdown editor with React",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://kitamuradev.github.io/sample-react-markdown",
   "license": "MIT",
   "type": "module",
   "scripts": {
