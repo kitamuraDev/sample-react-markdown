@@ -1,17 +1,25 @@
-const App = () => (
-  <div
-    style={{
-      backgroundColor: '#282c34',
-      color: 'white',
-      minHeight: '100vh',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      fontSize: 'calc(10px + 2vmin)',
-    }}
-  >
-    <p>Hello, React + TypeScript project Build with Vite.</p>
-  </div>
-);
+import { useEffect, useRef, useState } from 'react';
+
+import ReactMarkdown from 'react-markdown';
+
+const App = () => {
+  const [text, setText] = useState<string>('');
+  const inputRef = useRef<HTMLTextAreaElement>(null);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+
+  const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setText(event.target.value);
+  };
+
+  return (
+    <div className='app'>
+      <textarea ref={inputRef} onChange={(event) => handleChange(event)} />
+      <ReactMarkdown className='preview'>{text}</ReactMarkdown>
+    </div>
+  );
+};
 
 export default App;
