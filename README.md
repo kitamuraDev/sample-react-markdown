@@ -8,6 +8,7 @@
 
 - This is a sample to create a Markdown editor with React
 - Minimal implementation
+- [Link](kitamuradev.github.io/sample-react-markdown)
 
 # Tech Stack
 
@@ -23,6 +24,7 @@
 ### Library
 
 ![React](https://img.shields.io/badge/React-v18.2.0-blue)
+![react-markdown](https://img.shields.io/badge/react_markdown-v5.0.3-blue)
 
 ### Build Tool
 
